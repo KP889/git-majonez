@@ -1,0 +1,27 @@
+ 1156  cd git-majonez/
+ 1157  vim main.cpp
+ 1158  git init 
+ 1159  git add *
+ 1160  git commit -m "Initial commit"
+ 1161  vim main.cpp
+ 1162  git add *
+ 1163  git commit -m "Farewell changed"
+ 1164  git remote add https://github.com/KP889/git-majonez.git
+ 1165  git remote add origin https://github.com/KP889/git-majonez.git
+ 1166  git push -u origin master 
+ 1167  gitk &
+ 1168  git checkout 66e024
+ 1169  git checkout -b cs
+ 1170  git log
+ 1171  vim main.cpp 
+ 1172  git add *
+ 1173  git commit -m "Greetings"
+ 1174  git push -u origin cs
+ 1175  git checkout master 
+ 1176  git merge cs
+ 1177  vim main.cpp 
+ 1178  git add *
+ 1179  git log
+ 1180  git commit 
+ 1181  history
+ 1182  history | tail -n27 > history.txt
