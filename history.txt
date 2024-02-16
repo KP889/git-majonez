@@ -25,4 +25,4 @@
  1179  git log
  1180  git commit 
  1181  history
- 1182  history | tail -n27 > history.txt
+ 1182  history | tail -n28 > history.txt
