@@ -1,28 +1,42 @@
- 1155  mkdir git-majonez
- 1156  cd git-majonez/
- 1157  vim main.cpp
- 1158  git init 
- 1159  git add main.cpp
- 1160  git commit -m "Initial commit"
- 1161  vim main.cpp
- 1162  git add main.cpp
- 1163  git commit -m "Farewell changed"
- 1164  git remote add https://github.com/KP889/git-majonez.git
- 1165  git remote add origin https://github.com/KP889/git-majonez.git
- 1166  git push -u origin master 
- 1167  gitk &
- 1168  git checkout 66e024
- 1169  git checkout -b cs
- 1170  git log
- 1171  vim main.cpp 
- 1172  git add main.cpp
- 1173  git commit -m "Greetings"
- 1174  git push -u origin cs
- 1175  git checkout master 
- 1176  git merge cs
- 1177  vim main.cpp 
- 1178  git add main.cpp
- 1179  git log
- 1180  git commit 
- 1181  history
- 1182  history | tail -n28 > history.txt
+491  mkdir git-majonez
+492  cd git-majonez
+493  git init
+494  touch main.cpp
+495  git status
+496  git add main.cpp
+497  git commit -m "Initial commit"
+498  git add main.cpp
+499  git status
+500  git commit -m "Farewell changed"
+501  git remote add origin https://github.com/baldingTomato/git-majonez.git
+502  git push -u origin master
+503  git branch cs
+504  git status
+505  ls
+506  git log
+507  cat main.cpp
+508  git reset --hard 018ae4f2d7753dd3c6e6a34c2e907491149d3e37
+509  cat main.cpp
+510  git log
+511  git status
+512  git status
+513  git add main.cpp
+514  git status
+515  git commit -m "Greetings"
+516  git log
+517  git push origin cs
+518  git status
+519  git checkout master
+520  git branch
+521  git status
+522  git merge cs
+523  git status
+524  git status
+525  git add main.cpp
+526  git status
+527  git commit
+528  git status
+529  git log
+530  history
+531  touch history.txt
+532  history
